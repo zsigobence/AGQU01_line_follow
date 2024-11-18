@@ -60,8 +60,8 @@ all: main-build
 main-build: MEdubot.elf secondary-outputs
 
 # Tool invocations
-MEdubot.elf MEdubot.map: $(OBJS) $(USER_OBJS) C:\Users\TEMP.UNI-MISKOLC.005\OneDrive\ -\ University\ of\ Miskolc\MEdubot\MEdubot\STM32F401RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\TEMP.UNI-MISKOLC.005\OneDrive - University of Miskolc\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+MEdubot.elf MEdubot.map: $(OBJS) $(USER_OBJS) D:\School\MSc\beagyazott\ rendszerek\AGQU01_line_follow\MEdubot\MEdubot\STM32F401RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\School\MSc\beagyazott rendszerek\AGQU01_line_follow\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

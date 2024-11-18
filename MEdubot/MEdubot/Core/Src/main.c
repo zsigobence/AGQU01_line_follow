@@ -54,14 +54,17 @@ TIM_HandleTypeDef htim4;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-float Kp = 0.02;
-float Ki = 0.001;
-float Kd = 0.015;
+float Kp = 0.1;
+float Ki = 0.04;
+float Kd = 0.02;
 int P, I, D, R;
 int error;
 int lastError;
 int errors[20];
+int mode = 0;
 uint16_t adc[6]={0};
+uint16_t blackValues[3]={0};
+uint16_t whiteValues[3]={0};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -170,28 +173,28 @@ int errors_sum ()
 
 void PID_control() {
 	// 0 amelyik a vonalat érzékeli
-	if(adc[0] < 300 && adc[1] >= 300 && adc[2] >= 300){  // 0 1 1
-		error = 100;
+	if(adc[0] >= 1500 && adc[1] < 2000 && adc[2] < 2000){  // 0 1 1
+		error = 200;
 	}
-	if(adc[0] >= 300 && adc[1] < 300 && adc[2] >= 300){  // 1 0 1
+	if(adc[0] < 1500 && adc[1] >= 2000 && adc[2] < 2000){  // 1 0 1
 			error = 0;
 		}
-	if(adc[0] >= 300 && adc[1] >= 300 && adc[2] < 300){  // 1 1 0
-			error = -100;
-		}
-	if(adc[0] < 300 && adc[1] < 300 && adc[2] >= 300){  // 0 0 1
-			error = 200;
-		}
-	if(adc[0] >= 300 && adc[1] < 300 && adc[2] < 300){  // 1 0 0
+	if(adc[0] < 1500 && adc[1] < 2000 && adc[2] >= 2000){  // 1 1 0
 			error = -200;
 		}
-	if(adc[0] < 300 && adc[1] >= 300 && adc[2] < 300){  // 0 1 0
+	if(adc[0] >= 1500 && adc[1] >= 2000 && adc[2] < 2000){  // 0 0 1
+			error = 100;
+		}
+	if(adc[0] < 1500 && adc[1] >= 2000 && adc[2] >= 2000){  // 1 0 0
+			error = -100;
+		}
+	if(adc[0] >= 1500 && adc[1] < 2000 && adc[2] >= 2000){  // 0 1 0
 			error = 300;
 		}
-	if(adc[0] < 300 && adc[1] < 300 && adc[2] < 300){  // 0 0 0
-			error = 300;
+	if(adc[0] >= 1500 && adc[1] >= 2000 && adc[2] >= 2000){  // 0 0 0
+			error = 0;
 		}
-	if(adc[0] >= 300 && adc[1] >= 300 && adc[2] >= 300){  // 1 1 1
+	if(adc[0] < 1500 && adc[1] < 2000 && adc[2] < 2000){  // 1 1 1
 				error = 300;
 			}
 
@@ -204,11 +207,28 @@ void PID_control() {
 
   int motorspeed = P*Kp + I*Ki + D*Kd;
 
-  int motorspeedl = 500 + motorspeed;
-  int motorspeedr = 500 - motorspeed;
+  int motorspeedl = 500 - motorspeed;
+  int motorspeedr = 500 + motorspeed;
 
   setSpeed(motorspeedl, motorspeedr);
+}
 
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
+	mode += 1;
+	if(mode > 3){
+		mode = 0;
+	}
+	if(mode == 1){
+		for(i = 0; i < 3; i++){
+			blackValues[i] = adc[i];
+		}
+	}
+
+	if(mode == 2){
+		for(i = 0; i < 3; i++){
+			whiteValues[i] = adc[i];
+		}
+	}
 }
 /* USER CODE END 0 */
 
@@ -258,7 +278,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
 	while (1) {
 		HAL_ADC_Start_DMA(&hadc1, adc, 6);
-		PID_control();
+		if(mode == 3){
+			PID_control();
+		}
 		HAL_Delay(10);
 
     /* USER CODE END WHILE */
@@ -559,9 +581,9 @@ static void MX_TIM3_Init(void)
 
   /* USER CODE END TIM3_Init 1 */
   htim3.Instance = TIM3;
-  htim3.Init.Prescaler = 83-1;
+  htim3.Init.Prescaler = 84-1;
   htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim3.Init.Period = 999-1;
+  htim3.Init.Period = 1000-1;
   htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
   if (HAL_TIM_Base_Init(&htim3) != HAL_OK)
@@ -746,6 +768,10 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI15_10_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
