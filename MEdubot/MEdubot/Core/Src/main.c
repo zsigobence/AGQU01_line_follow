@@ -63,8 +63,9 @@ int lastError;
 int errors[20];
 int mode = 0;
 uint16_t adc[6]={0};
-uint16_t blackValues[3]={0};
-uint16_t whiteValues[3]={0};
+uint16_t blackValues[3] = {0};
+uint16_t whiteValues[3] = {0};
+uint16_t triggerValues[3] = {0};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -173,28 +174,28 @@ int errors_sum ()
 
 void PID_control() {
 	// 0 amelyik a vonalat érzékeli
-	if(adc[0] >= 1500 && adc[1] < 2000 && adc[2] < 2000){  // 0 1 1
+	if(adc[0] >= triggerValues[0] && adc[1] < triggerValues[1] && adc[2] < triggerValues[2]){  // 0 1 1
 		error = 200;
 	}
-	if(adc[0] < 1500 && adc[1] >= 2000 && adc[2] < 2000){  // 1 0 1
+	if(adc[0] < triggerValues[0] && adc[1] >= triggerValues[1] && adc[2] < triggerValues[2]){  // 1 0 1
 			error = 0;
 		}
-	if(adc[0] < 1500 && adc[1] < 2000 && adc[2] >= 2000){  // 1 1 0
+	if(adc[0] < triggerValues[0] && adc[1] < triggerValues[1] && adc[2] >= triggerValues[2]){  // 1 1 0
 			error = -200;
 		}
-	if(adc[0] >= 1500 && adc[1] >= 2000 && adc[2] < 2000){  // 0 0 1
+	if(adc[0] >= triggerValues[0] && adc[1] >= triggerValues[1] && adc[2] < triggerValues[2]){  // 0 0 1
 			error = 100;
 		}
-	if(adc[0] < 1500 && adc[1] >= 2000 && adc[2] >= 2000){  // 1 0 0
+	if(adc[0] < triggerValues[0] && adc[1] >= triggerValues[1] && adc[2] >= triggerValues[2]){  // 1 0 0
 			error = -100;
 		}
-	if(adc[0] >= 1500 && adc[1] < 2000 && adc[2] >= 2000){  // 0 1 0
+	if(adc[0] >= triggerValues[0] && adc[1] < triggerValues[1] && adc[2] >= triggerValues[2]){  // 0 1 0
 			error = 300;
 		}
-	if(adc[0] >= 1500 && adc[1] >= 2000 && adc[2] >= 2000){  // 0 0 0
+	if(adc[0] >= triggerValues[0] && adc[1] >= triggerValues[1] && adc[2] >= triggerValues[2]){  // 0 0 0
 			error = 0;
 		}
-	if(adc[0] < 1500 && adc[1] < 2000 && adc[2] < 2000){  // 1 1 1
+	if(adc[0] < triggerValues[0] && adc[1] < triggerValues[1] && adc[2] < triggerValues[2]){  // 1 1 1
 				error = 300;
 			}
 
@@ -227,6 +228,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 	if(mode == 2){
 		for(i = 0; i < 3; i++){
 			whiteValues[i] = adc[i];
+			triggerValues[i] = whiteValues[i] + ((blackValues[i] - whiteValues[i]) / 2 );
 		}
 	}
 }
