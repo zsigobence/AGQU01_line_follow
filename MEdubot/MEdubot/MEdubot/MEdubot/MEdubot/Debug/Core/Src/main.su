@@ -1,0 +1,15 @@
+../Core/Src/main.c:76:6:setDirection	24	static
+../Core/Src/main.c:120:9:getDirectionFromSpeed	24	static
+../Core/Src/main.c:130:10:getPWMFromSpeed	24	static
+../Core/Src/main.c:139:6:setSpeed	24	static
+../Core/Src/main.c:154:5:main	8	static
+../Core/Src/main.c:211:6:SystemClock_Config	88	static
+../Core/Src/main.c:258:13:MX_ADC1_Init	24	static
+../Core/Src/main.c:355:13:MX_TIM1_Init	96	static
+../Core/Src/main.c:438:13:MX_TIM2_Init	32	static
+../Core/Src/main.c:483:13:MX_TIM3_Init	64	static
+../Core/Src/main.c:554:13:MX_TIM4_Init	32	static
+../Core/Src/main.c:599:13:MX_USART2_UART_Init	8	static
+../Core/Src/main.c:630:13:MX_DMA_Init	16	static
+../Core/Src/main.c:648:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:698:6:Error_Handler	4	static,ignoring_inline_asm

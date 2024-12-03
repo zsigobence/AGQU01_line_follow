@@ -1,0 +1,2051 @@
+13:44:16 **** Clean-only build of configuration Debug for project MEdubot ****
+make -j12 clean 
+rm -rf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.su
+rm -rf ./Core/Startup/startup_stm32f401retx.d ./Core/Startup/startup_stm32f401retx.o
+rm -rf ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stm32f4xx_hal_msp.cyclo ./Core/Src/stm32f4xx_hal_msp.d ./Core/Src/stm32f4xx_hal_msp.o ./Core/Src/stm32f4xx_hal_msp.su ./Core/Src/stm32f4xx_it.cyclo ./Core/Src/stm32f4xx_it.d ./Core/Src/stm32f4xx_it.o ./Core/Src/stm32f4xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f4xx.cyclo ./Core/Src/system_stm32f4xx.d ./Core/Src/system_stm32f4xx.o ./Core/Src/system_stm32f4xx.su ./Core/Src/uFRI.cyclo ./Core/Src/uFRI.d ./Core/Src/uFRI.o ./Core/Src/uFRI.su
+rm -rf MEdubot.elf MEdubot.list MEdubot.map default.size.stdout
+ 
+13:44:16 **** Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f401retx.d" -MT"Core/Startup/startup_stm32f401retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f401retx.o" "../Core/Startup/startup_stm32f401retx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'init_fuzzy':
+../Core/Src/main.c:175:1: warning: implicit declaration of function 'FRI_init' [-Wimplicit-function-declaration]
+  175 | FRI_init(5, 2);
+      | ^~~~~~~~
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+../Core/Src/main.c:177:1: warning: implicit declaration of function 'FRI_initUniverseById' [-Wimplicit-function-declaration]
+  177 | FRI_initUniverseById(0, 4); // Universe: leftSens
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:178:1: warning: implicit declaration of function 'FRI_addUniverseElement' [-Wimplicit-function-declaration]
+  178 | FRI_addUniverseElement(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+../Core/Src/main.c:209:1: warning: implicit declaration of function 'FRI_initRuleBaseById' [-Wimplicit-function-declaration]
+  209 | FRI_initRuleBaseById(0, 5, 3); // Rulebase: sL
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:210:1: warning: implicit declaration of function 'FRI_addRuleToRulebase' [-Wimplicit-function-declaration]
+  210 | FRI_addRuleToRulebase(0, 3);
+      | ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:211:1: warning: implicit declaration of function 'FRI_addAntecedentToRule' [-Wimplicit-function-declaration]
+  211 | FRI_addAntecedentToRule(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:311:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  311 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+../Core/Src/main.c:313:25: warning: implicit declaration of function 'FRI_setObservationForUniverseById' [-Wimplicit-function-declaration]
+  313 |                         FRI_setObservationForUniverseById(0, adc[0]);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:316:25: warning: implicit declaration of function 'FRI_calculateAllRuleBases' [-Wimplicit-function-declaration]
+  316 |                         FRI_calculateAllRuleBases();
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:317:30: warning: implicit declaration of function 'FRI_getObservationById' [-Wimplicit-function-declaration]
+  317 |                         sL = FRI_getObservationById(3);
+      |                              ^~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `init_fuzzy':
+C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:175: undefined reference to `FRI_init'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:177: undefined reference to `FRI_initUniverseById'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:178: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:179: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:180: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:181: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:183: undefined reference to `FRI_initUniverseById'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:184: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:185: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:186: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:187: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:189: undefined reference to `FRI_initUniverseById'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:190: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:191: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:192: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:193: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:195: undefined reference to `FRI_initUniverseById'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:196: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:197: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:198: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:199: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:200: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:202: undefined reference to `FRI_initUniverseById'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:203: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:204: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:205: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:206: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:207: undefined reference to `FRI_addUniverseElement'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:209: undefined reference to `FRI_initRuleBaseById'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:210: undefined reference to `FRI_addRuleToRulebase'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:211: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:212: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:213: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:215: undefined reference to `FRI_addRuleToRulebase'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:216: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:217: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:218: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:220: undefined reference to `FRI_addRuleToRulebase'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:221: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:222: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:223: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:225: undefined reference to `FRI_addRuleToRulebase'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:226: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:227: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:228: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:230: undefined reference to `FRI_addRuleToRulebase'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:231: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:232: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:233: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:236: undefined reference to `FRI_initRuleBaseById'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:237: undefined reference to `FRI_addRuleToRulebase'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:238: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:239: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:240: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:242: undefined reference to `FRI_addRuleToRulebase'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:243: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:244: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:245: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:247: undefined reference to `FRI_addRuleToRulebase'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:248: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:249: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:250: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:252: undefined reference to `FRI_addRuleToRulebase'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:253: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:254: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:255: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:257: undefined reference to `FRI_addRuleToRulebase'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:258: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:259: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:260: undefined reference to `FRI_addAntecedentToRule'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:313: undefined reference to `FRI_setObservationForUniverseById'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:314: undefined reference to `FRI_setObservationForUniverseById'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:315: undefined reference to `FRI_setObservationForUniverseById'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:316: undefined reference to `FRI_calculateAllRuleBases'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:317: undefined reference to `FRI_getObservationById'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/au086907/Documents/MEdubot/MEdubot/MEdubot/Debug/../Core/Src/main.c:318: undefined reference to `FRI_getObservationById'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: MEdubot.elf] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+13:45:27 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:311:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  311 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:31:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/Src/stm32f4xx_hal_msp.c:22:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/Src/stm32f4xx_it.c:21:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc "../Core/Src/uFRI.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/uFRI.d" -MT"Core/Src/uFRI.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/uFRI.o"
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24900	     92	   2492	  27484	   6b5c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+13:51:30 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:312:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  312 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:31:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/Src/stm32f4xx_hal_msp.c:22:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/Src/stm32f4xx_it.c:21:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24900	     92	   2492	  27484	   6b5c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+13:52:44 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-size  MEdubot.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24900	     92	   2492	  27484	   6b5c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+13:54:33 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-size  MEdubot.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24900	     92	   2492	  27484	   6b5c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+13:54:59 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-size  MEdubot.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24900	     92	   2492	  27484	   6b5c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+13:56:47 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:288:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  288 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:31:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24700	     92	   2492	  27284	   6a94	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:01:20 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:312:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  312 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:31:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24900	     92	   2492	  27484	   6b5c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:03:21 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:288:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  288 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:31:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24700	     92	   2492	  27284	   6a94	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:03:41 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-size  MEdubot.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24700	     92	   2492	  27284	   6a94	MEdubot.elf
+Finished building: default.size.stdout
+ 
+14:03:57 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-size  MEdubot.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24700	     92	   2492	  27284	   6a94	MEdubot.elf
+Finished building: default.size.stdout
+ 
+14:04:20 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-size  MEdubot.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24700	     92	   2492	  27284	   6a94	MEdubot.elf
+Finished building: default.size.stdout
+ 
+14:04:50 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:288:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  288 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:31:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24720	     92	   2492	  27304	   6aa8	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:11:16 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:312:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  312 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:31:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24896	     92	   2492	  27480	   6b58	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:15:47 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:300:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  300 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:31:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24800	     92	   2492	  27384	   6af8	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:16:17 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-size  MEdubot.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24800	     92	   2492	  27384	   6af8	MEdubot.elf
+Finished building: default.size.stdout
+ 
+14:17:25 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:300:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  300 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:31:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24820	     92	   2492	  27404	   6b0c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:19:57 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:300:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  300 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:31:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24812	     92	   2492	  27396	   6b04	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:24:16 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:300:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  300 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:31:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24820	     92	   2492	  27404	   6b0c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:24:40 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-size  MEdubot.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24820	     92	   2492	  27404	   6b0c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+14:28:09 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'init_fuzzy':
+../Core/Src/main.c:175:1: warning: implicit declaration of function 'FRI_init' [-Wimplicit-function-declaration]
+  175 | FRI_init(5, 2);
+      | ^~~~~~~~
+../Core/Src/main.c:177:1: warning: implicit declaration of function 'FRI_initUniverseById' [-Wimplicit-function-declaration]
+  177 | FRI_initUniverseById(0, 4); // Universe: leftSens
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:178:1: warning: implicit declaration of function 'FRI_addUniverseElement' [-Wimplicit-function-declaration]
+  178 | FRI_addUniverseElement(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:207:1: warning: implicit declaration of function 'FRI_initRuleBaseById' [-Wimplicit-function-declaration]
+  207 | FRI_initRuleBaseById(0, 4, 3); // Rulebase: sL
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:208:1: warning: implicit declaration of function 'FRI_addRuleToRulebase' [-Wimplicit-function-declaration]
+  208 | FRI_addRuleToRulebase(0, 3);
+      | ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:209:1: warning: implicit declaration of function 'FRI_addAntecedentToRule' [-Wimplicit-function-declaration]
+  209 | FRI_addAntecedentToRule(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:299:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  299 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+../Core/Src/main.c:301:25: warning: implicit declaration of function 'FRI_setObservationForUniverseById' [-Wimplicit-function-declaration]
+  301 |                         FRI_setObservationForUniverseById(0, adc[0]);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:304:25: warning: implicit declaration of function 'FRI_calculateAllRuleBases' [-Wimplicit-function-declaration]
+  304 |                         FRI_calculateAllRuleBases();
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:305:30: warning: implicit declaration of function 'FRI_getObservationById' [-Wimplicit-function-declaration]
+  305 |                         sL = FRI_getObservationById(3);
+      |                              ^~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24680	     92	   2492	  27264	   6a80	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:29:41 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'init_fuzzy':
+../Core/Src/main.c:175:1: warning: implicit declaration of function 'FRI_init' [-Wimplicit-function-declaration]
+  175 | FRI_init(5, 2);
+      | ^~~~~~~~
+../Core/Src/main.c:177:1: warning: implicit declaration of function 'FRI_initUniverseById' [-Wimplicit-function-declaration]
+  177 | FRI_initUniverseById(0, 4); // Universe: leftSens
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:178:1: warning: implicit declaration of function 'FRI_addUniverseElement' [-Wimplicit-function-declaration]
+  178 | FRI_addUniverseElement(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:207:1: warning: implicit declaration of function 'FRI_initRuleBaseById' [-Wimplicit-function-declaration]
+  207 | FRI_initRuleBaseById(0, 4, 3); // Rulebase: sL
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:208:1: warning: implicit declaration of function 'FRI_addRuleToRulebase' [-Wimplicit-function-declaration]
+  208 | FRI_addRuleToRulebase(0, 3);
+      | ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:209:1: warning: implicit declaration of function 'FRI_addAntecedentToRule' [-Wimplicit-function-declaration]
+  209 | FRI_addAntecedentToRule(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:299:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  299 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+../Core/Src/main.c:301:25: warning: implicit declaration of function 'FRI_setObservationForUniverseById' [-Wimplicit-function-declaration]
+  301 |                         FRI_setObservationForUniverseById(0, adc[0]);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:304:25: warning: implicit declaration of function 'FRI_calculateAllRuleBases' [-Wimplicit-function-declaration]
+  304 |                         FRI_calculateAllRuleBases();
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:305:30: warning: implicit declaration of function 'FRI_getObservationById' [-Wimplicit-function-declaration]
+  305 |                         sL = FRI_getObservationById(3);
+      |                              ^~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24680	     92	   2492	  27264	   6a80	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:31:28 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'init_fuzzy':
+../Core/Src/main.c:175:1: warning: implicit declaration of function 'FRI_init' [-Wimplicit-function-declaration]
+  175 | FRI_init(5, 2);
+      | ^~~~~~~~
+../Core/Src/main.c:177:1: warning: implicit declaration of function 'FRI_initUniverseById' [-Wimplicit-function-declaration]
+  177 | FRI_initUniverseById(0, 4); // Universe: leftSens
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:178:1: warning: implicit declaration of function 'FRI_addUniverseElement' [-Wimplicit-function-declaration]
+  178 | FRI_addUniverseElement(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:207:1: warning: implicit declaration of function 'FRI_initRuleBaseById' [-Wimplicit-function-declaration]
+  207 | FRI_initRuleBaseById(0, 4, 3); // Rulebase: sL
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:208:1: warning: implicit declaration of function 'FRI_addRuleToRulebase' [-Wimplicit-function-declaration]
+  208 | FRI_addRuleToRulebase(0, 3);
+      | ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:209:1: warning: implicit declaration of function 'FRI_addAntecedentToRule' [-Wimplicit-function-declaration]
+  209 | FRI_addAntecedentToRule(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:299:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  299 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+../Core/Src/main.c:301:25: warning: implicit declaration of function 'FRI_setObservationForUniverseById' [-Wimplicit-function-declaration]
+  301 |                         FRI_setObservationForUniverseById(0, adc[0]);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:304:25: warning: implicit declaration of function 'FRI_calculateAllRuleBases' [-Wimplicit-function-declaration]
+  304 |                         FRI_calculateAllRuleBases();
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:305:30: warning: implicit declaration of function 'FRI_getObservationById' [-Wimplicit-function-declaration]
+  305 |                         sL = FRI_getObservationById(3);
+      |                              ^~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24660	     92	   2492	  27244	   6a6c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:32:57 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-size  MEdubot.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24660	     92	   2492	  27244	   6a6c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+14:35:08 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'init_fuzzy':
+../Core/Src/main.c:175:1: warning: implicit declaration of function 'FRI_init' [-Wimplicit-function-declaration]
+  175 | FRI_init(5, 2);
+      | ^~~~~~~~
+../Core/Src/main.c:177:1: warning: implicit declaration of function 'FRI_initUniverseById' [-Wimplicit-function-declaration]
+  177 | FRI_initUniverseById(0, 4); // Universe: leftSens
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:178:1: warning: implicit declaration of function 'FRI_addUniverseElement' [-Wimplicit-function-declaration]
+  178 | FRI_addUniverseElement(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:207:1: warning: implicit declaration of function 'FRI_initRuleBaseById' [-Wimplicit-function-declaration]
+  207 | FRI_initRuleBaseById(0, 4, 3); // Rulebase: sL
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:208:1: warning: implicit declaration of function 'FRI_addRuleToRulebase' [-Wimplicit-function-declaration]
+  208 | FRI_addRuleToRulebase(0, 3);
+      | ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:209:1: warning: implicit declaration of function 'FRI_addAntecedentToRule' [-Wimplicit-function-declaration]
+  209 | FRI_addAntecedentToRule(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:299:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  299 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+../Core/Src/main.c:301:25: warning: implicit declaration of function 'FRI_setObservationForUniverseById' [-Wimplicit-function-declaration]
+  301 |                         FRI_setObservationForUniverseById(0, adc[0]);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:304:25: warning: implicit declaration of function 'FRI_calculateAllRuleBases' [-Wimplicit-function-declaration]
+  304 |                         FRI_calculateAllRuleBases();
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:305:30: warning: implicit declaration of function 'FRI_getObservationById' [-Wimplicit-function-declaration]
+  305 |                         sL = FRI_getObservationById(3);
+      |                              ^~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24676	     92	   2492	  27260	   6a7c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:37:16 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'init_fuzzy':
+../Core/Src/main.c:175:1: warning: implicit declaration of function 'FRI_init' [-Wimplicit-function-declaration]
+  175 | FRI_init(5, 2);
+      | ^~~~~~~~
+../Core/Src/main.c:177:1: warning: implicit declaration of function 'FRI_initUniverseById' [-Wimplicit-function-declaration]
+  177 | FRI_initUniverseById(0, 4); // Universe: leftSens
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:178:1: warning: implicit declaration of function 'FRI_addUniverseElement' [-Wimplicit-function-declaration]
+  178 | FRI_addUniverseElement(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:207:1: warning: implicit declaration of function 'FRI_initRuleBaseById' [-Wimplicit-function-declaration]
+  207 | FRI_initRuleBaseById(0, 4, 3); // Rulebase: sL
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:208:1: warning: implicit declaration of function 'FRI_addRuleToRulebase' [-Wimplicit-function-declaration]
+  208 | FRI_addRuleToRulebase(0, 3);
+      | ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:209:1: warning: implicit declaration of function 'FRI_addAntecedentToRule' [-Wimplicit-function-declaration]
+  209 | FRI_addAntecedentToRule(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:299:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  299 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+../Core/Src/main.c:301:25: warning: implicit declaration of function 'FRI_setObservationForUniverseById' [-Wimplicit-function-declaration]
+  301 |                         FRI_setObservationForUniverseById(0, adc[0]);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:304:25: warning: implicit declaration of function 'FRI_calculateAllRuleBases' [-Wimplicit-function-declaration]
+  304 |                         FRI_calculateAllRuleBases();
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:305:30: warning: implicit declaration of function 'FRI_getObservationById' [-Wimplicit-function-declaration]
+  305 |                         sL = FRI_getObservationById(3);
+      |                              ^~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24676	     92	   2492	  27260	   6a7c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:38:39 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'init_fuzzy':
+../Core/Src/main.c:175:1: warning: implicit declaration of function 'FRI_init' [-Wimplicit-function-declaration]
+  175 | FRI_init(5, 2);
+      | ^~~~~~~~
+../Core/Src/main.c:177:1: warning: implicit declaration of function 'FRI_initUniverseById' [-Wimplicit-function-declaration]
+  177 | FRI_initUniverseById(0, 4); // Universe: leftSens
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:178:1: warning: implicit declaration of function 'FRI_addUniverseElement' [-Wimplicit-function-declaration]
+  178 | FRI_addUniverseElement(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:207:1: warning: implicit declaration of function 'FRI_initRuleBaseById' [-Wimplicit-function-declaration]
+  207 | FRI_initRuleBaseById(0, 4, 3); // Rulebase: sL
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:208:1: warning: implicit declaration of function 'FRI_addRuleToRulebase' [-Wimplicit-function-declaration]
+  208 | FRI_addRuleToRulebase(0, 3);
+      | ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:209:1: warning: implicit declaration of function 'FRI_addAntecedentToRule' [-Wimplicit-function-declaration]
+  209 | FRI_addAntecedentToRule(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:299:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  299 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+../Core/Src/main.c:301:25: warning: implicit declaration of function 'FRI_setObservationForUniverseById' [-Wimplicit-function-declaration]
+  301 |                         FRI_setObservationForUniverseById(0, adc[0]);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:304:25: warning: implicit declaration of function 'FRI_calculateAllRuleBases' [-Wimplicit-function-declaration]
+  304 |                         FRI_calculateAllRuleBases();
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:305:30: warning: implicit declaration of function 'FRI_getObservationById' [-Wimplicit-function-declaration]
+  305 |                         sL = FRI_getObservationById(3);
+      |                              ^~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24676	     92	   2492	  27260	   6a7c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:40:58 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'init_fuzzy':
+../Core/Src/main.c:175:1: warning: implicit declaration of function 'FRI_init' [-Wimplicit-function-declaration]
+  175 | FRI_init(5, 2);
+      | ^~~~~~~~
+../Core/Src/main.c:177:1: warning: implicit declaration of function 'FRI_initUniverseById' [-Wimplicit-function-declaration]
+  177 | FRI_initUniverseById(0, 4); // Universe: leftSens
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:178:1: warning: implicit declaration of function 'FRI_addUniverseElement' [-Wimplicit-function-declaration]
+  178 | FRI_addUniverseElement(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:207:1: warning: implicit declaration of function 'FRI_initRuleBaseById' [-Wimplicit-function-declaration]
+  207 | FRI_initRuleBaseById(0, 4, 3); // Rulebase: sL
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:208:1: warning: implicit declaration of function 'FRI_addRuleToRulebase' [-Wimplicit-function-declaration]
+  208 | FRI_addRuleToRulebase(0, 3);
+      | ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:209:1: warning: implicit declaration of function 'FRI_addAntecedentToRule' [-Wimplicit-function-declaration]
+  209 | FRI_addAntecedentToRule(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:299:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  299 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+../Core/Src/main.c:301:25: warning: implicit declaration of function 'FRI_setObservationForUniverseById' [-Wimplicit-function-declaration]
+  301 |                         FRI_setObservationForUniverseById(0, adc[0]);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:304:25: warning: implicit declaration of function 'FRI_calculateAllRuleBases' [-Wimplicit-function-declaration]
+  304 |                         FRI_calculateAllRuleBases();
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:305:30: warning: implicit declaration of function 'FRI_getObservationById' [-Wimplicit-function-declaration]
+  305 |                         sL = FRI_getObservationById(3);
+      |                              ^~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24660	     92	   2492	  27244	   6a6c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:43:55 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'init_fuzzy':
+../Core/Src/main.c:175:1: warning: implicit declaration of function 'FRI_init' [-Wimplicit-function-declaration]
+  175 | FRI_init(5, 2);
+      | ^~~~~~~~
+../Core/Src/main.c:177:1: warning: implicit declaration of function 'FRI_initUniverseById' [-Wimplicit-function-declaration]
+  177 | FRI_initUniverseById(0, 4); // Universe: leftSens
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:178:1: warning: implicit declaration of function 'FRI_addUniverseElement' [-Wimplicit-function-declaration]
+  178 | FRI_addUniverseElement(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:207:1: warning: implicit declaration of function 'FRI_initRuleBaseById' [-Wimplicit-function-declaration]
+  207 | FRI_initRuleBaseById(0, 4, 3); // Rulebase: sL
+      | ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:208:1: warning: implicit declaration of function 'FRI_addRuleToRulebase' [-Wimplicit-function-declaration]
+  208 | FRI_addRuleToRulebase(0, 3);
+      | ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:209:1: warning: implicit declaration of function 'FRI_addAntecedentToRule' [-Wimplicit-function-declaration]
+  209 | FRI_addAntecedentToRule(0, 0);
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:299:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  299 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+../Core/Src/main.c:301:25: warning: implicit declaration of function 'FRI_setObservationForUniverseById' [-Wimplicit-function-declaration]
+  301 |                         FRI_setObservationForUniverseById(0, adc[0]);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:304:25: warning: implicit declaration of function 'FRI_calculateAllRuleBases' [-Wimplicit-function-declaration]
+  304 |                         FRI_calculateAllRuleBases();
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:305:30: warning: implicit declaration of function 'FRI_getObservationById' [-Wimplicit-function-declaration]
+  305 |                         sL = FRI_getObservationById(3);
+      |                              ^~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24668	     92	   2492	  27252	   6a74	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:45:16 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+In file included from ../Core/Inc/main.h:34,
+                 from ../Core/Src/stm32f4xx_hal_msp.c:22:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:299:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  299 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34,
+                 from ../Core/Src/stm32f4xx_it.c:21:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24812	     92	   2492	  27396	   6b04	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:50:29 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:299:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  299 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24800	     92	   2492	  27384	   6af8	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:52:20 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:299:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  299 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24820	     92	   2492	  27404	   6b0c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:54:17 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:299:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  299 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24820	     92	   2492	  27404	   6b0c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:55:31 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-size  MEdubot.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24820	     92	   2492	  27404	   6b0c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+14:55:49 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:299:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  299 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24800	     92	   2492	  27384	   6af8	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+14:58:36 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:299:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  299 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24800	     92	   2492	  27384	   6af8	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+15:00:35 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:299:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  299 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24820	     92	   2492	  27404	   6b0c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+15:02:45 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:170:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:174:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  174 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:170:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  170 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:299:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  299 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24820	     92	   2492	  27404	   6b0c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+15:12:17 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:175:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  175 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:179:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  179 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:175:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  175 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:304:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  304 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24920	     92	   2492	  27504	   6b70	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+15:14:11 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:175:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  175 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:179:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  179 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:175:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  175 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:304:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  304 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24920	     92	   2492	  27504	   6b70	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+15:14:51 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:175:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  175 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:179:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  179 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:175:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  175 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:304:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  304 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24916	     92	   2492	  27500	   6b6c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+15:16:24 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:171:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  171 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:175:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  175 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:171:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  171 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:300:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  300 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24820	     92	   2492	  27404	   6b0c	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+15:27:29 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:171:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  171 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:175:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  175 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:171:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  171 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:281:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  281 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24684	     92	   2492	  27268	   6a84	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+15:31:07 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:171:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  171 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:175:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  175 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:171:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  171 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:281:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  281 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24684	     92	   2492	  27268	   6a84	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+15:32:19 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:171:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  171 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:175:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  175 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:171:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  171 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:281:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  281 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24684	     92	   2492	  27268	   6a84	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+15:33:30 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:171:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  171 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:175:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  175 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:171:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  171 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:281:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  281 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24684	     92	   2492	  27268	   6a84	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+15:38:56 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:171:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  171 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:175:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  175 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:171:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  171 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:291:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  291 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24748	     92	   2492	  27332	   6ac4	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 
+15:44:40 **** Incremental Build of configuration Debug for project MEdubot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:171:17: warning: implicit declaration of function 'init_fuzzy' [-Wimplicit-function-declaration]
+  171 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:175:6: warning: conflicting types for 'init_fuzzy'; have 'void()'
+  175 | void init_fuzzy(){
+      |      ^~~~~~~~~~
+../Core/Src/main.c:171:17: note: previous implicit declaration of 'init_fuzzy' with type 'void()'
+  171 |                 init_fuzzy();
+      |                 ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:291:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  291 |                 HAL_ADC_Start_DMA(&hadc1, adc, 6);
+      |                                           ^~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/uFRI.h: At top level:
+../Core/Inc/uFRI.h:16:29: warning: 'rulebases' defined but not used [-Wunused-variable]
+   16 | static struct FRI_RULEBASE *rulebases;
+      |                             ^~~~~~~~~
+../Core/Inc/uFRI.h:15:29: warning: 'universes' defined but not used [-Wunused-variable]
+   15 | static struct FRI_UNIVERSE *universes;
+      |                             ^~~~~~~~~
+arm-none-eabi-gcc -o "MEdubot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\au086907\Documents\MEdubot\MEdubot\MEdubot\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MEdubot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MEdubot.elf
+ 
+arm-none-eabi-size  MEdubot.elf 
+arm-none-eabi-objdump -h -S MEdubot.elf  > "MEdubot.list"
+   text	   data	    bss	    dec	    hex	filename
+  24748	     92	   2492	  27332	   6ac4	MEdubot.elf
+Finished building: default.size.stdout
+ 
+Finished building: MEdubot.list
+ 

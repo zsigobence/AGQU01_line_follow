@@ -1,0 +1,60 @@
+universe "leftSens"
+    "close" 0 0
+	"noLine" 1000 0
+	"line" 2000 1
+    "far" 4095 1
+end
+
+universe "midSens"
+    "close" 0 0
+	"noLine" 1000 0
+	"line" 2000 1
+    "far" 4095 1
+end
+
+universe "rightSens"
+    "close" 0 0
+	"noLine" 1000 0
+	"line" 2000 1
+    "far" 4095 1
+end
+
+universe "sL"
+    "min" 0 0
+	"low" 0.1 300
+	"high" 0.9 900
+    "max" 1 1000
+end
+
+universe "sR"
+    "min" 0 0
+	"low" 0.1 300
+	"high" 0.9 900
+    "max" 1 1000
+end
+
+rulebase "sL"
+	rule
+	"min" when "leftSens" is "close" and "midSens" is "close" and "rightSens" is "close"
+    end
+    rule
+	"low" when "leftSens" is "noLine" and "midSens" is "noLine" and "rightSens" is "noLine"
+    end
+	rule
+	"high" when "leftSens" is "noLine" and "midSens" is "noLine" and "rightSens" is "line"
+    end
+
+end
+
+rulebase "sR"
+	rule
+	"min" when "leftSens" is "close" and "midSens" is "close" and "rightSens" is "close"
+    end
+    rule
+	"low" when "leftSens" is "noLine" and "midSens" is "noLine" and "rightSens" is "noLine"
+    end
+	rule
+	"high" when "leftSens" is "line" and "midSens" is "noLine" and "rightSens" is "noLine"
+    end
+
+end
