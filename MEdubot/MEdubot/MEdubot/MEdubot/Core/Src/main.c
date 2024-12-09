@@ -196,13 +196,15 @@ FRI_addUniverseElement(4095, 1);
 FRI_initUniverseById(3, 4); // Universe: sL
 FRI_addUniverseElement(0, 0);
 FRI_addUniverseElement(0.1, 300);
-FRI_addUniverseElement(0.9, 900);
+FRI_addUniverseElement(0.5, 500);
+FRI_addUniverseElement(0.9, 700);
 FRI_addUniverseElement(1, 1000);
 
 FRI_initUniverseById(4, 4); // Universe: sR
 FRI_addUniverseElement(0, 0);
 FRI_addUniverseElement(0.1, 300);
-FRI_addUniverseElement(0.9, 900);
+FRI_addUniverseElement(0.5, 500);
+FRI_addUniverseElement(0.9, 700);
 FRI_addUniverseElement(1, 1000);
 
 FRI_initRuleBaseById(0, 3, 3); // Rulebase: sL
